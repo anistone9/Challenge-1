@@ -5,7 +5,8 @@
     margin: 0;
 }
 
-/*Element Selectors*/
+/*Element Selectors
+Removed several rules as part of adopting semantic elements in the html file*/
 body {
     background-color: #d9dcd6;
 }
@@ -79,6 +80,7 @@ p {
     background-color: #2589bd;
 }
 
+/*Condensed multiple identical rules into one rule with several classes*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
